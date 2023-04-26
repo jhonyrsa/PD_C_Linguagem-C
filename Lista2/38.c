@@ -8,7 +8,7 @@ int main(void)
     printf("Insira sua data de nascimento (dd mm aaaa): ");
     scanf("%d %d %d", &dia, &mes, &ano);
 
-    if(ano>=1983 && ano<=2004){
+    if(ano>=1982 && ano<=2004){
         if(ano%400==0 || (ano%4==0 && ano%100!=0)){
             if(mes==2){
                 if(dia>=1 && dia<=29)
