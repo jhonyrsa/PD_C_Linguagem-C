@@ -10,5 +10,5 @@ int main(void)
 
     printf("Sn = %d.\n", soma);
 
-    return 0;r
+    return 0;
 }
