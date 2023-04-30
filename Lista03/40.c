@@ -2,7 +2,7 @@
 
 int main(void)
 {
-    int maior, menor, aux, num;
+    int maior, menor, num;
 
     printf("Digite um numero: ");
     scanf("%d", &num);
