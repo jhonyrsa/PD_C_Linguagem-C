@@ -25,39 +25,22 @@ int main(void){
                                                                             if(i%19==0){
                                                                                 if(i%20==0) break;
                                                                             }
-                                                                            else continue;
                                                                         }
-                                                                        else continue;
                                                                     }
-                                                                    else continue;
                                                                 }
-                                                                else continue;
                                                             }
-                                                            else continue;
                                                         }
-                                                        else continue;
                                                     }
-                                                    else continue;
                                                 }
-                                                else continue;
                                             }
-                                            else continue;
                                         }
-                                        else continue;
                                     }
-                                    else continue;
                                 }
-                                else continue;
                             }
-                            else continue;
                         }
-                        else continue;
                     }
-                    else continue;
                 }
-                else continue;
             }
-            else continue;
         }
     }
 
