@@ -1,15 +1,21 @@
 #include <stdio.h>
 
-int main(){
-    float tCelcius, tFahrenheit;
+double fahrenheitConverter(double temperature);
+
+int main(void)
+{
+    double tCelcius;
 
     printf("Digite a temperatura em Celcius: ");
-    scanf("%f", &tCelcius);
+    scanf("%lf", &tCelcius);
 
-    tFahrenheit = tCelcius*1.8 +32.0;
+    double tFahrenheint = fahrenheitConverter(tCelcius);
 
-    printf("Sua conversao para Fahrenheit eh: %.2f F", tFahrenheit);
+    printf("Temperatura %.2f F\n", tFahrenheint);
 
     return 0;
+}
 
+double fahrenheitConverter(double temperature){
+    return temperature*(9.0/5.0)+32.0;
 }

@@ -2,13 +2,14 @@
 
 int main(void)
 {
-    float num1, quintaParte;
+    double number;
 
-    scanf("%f", &num1);
+    printf("Digite um numero A: ");
+    scanf("%lf", &number);
 
-    quintaParte = num1/5.0;
+    double fifthPart = number/5.0;
 
-    printf("%.3f", quintaParte);
+    printf("\n%lf/5 = %lf\n", number, fifthPart);
 
     return 0;
 }

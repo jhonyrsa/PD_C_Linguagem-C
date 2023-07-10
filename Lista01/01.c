@@ -1,10 +1,13 @@
 #include <stdio.h>
 
-int main()
+int main(void)
 {
-    int num;
-    scanf("%d", &num);
-    printf("\n%d\n", num);
+    int number;
+
+    printf("Digite um numero: ");
+    scanf("%d", &number);
+
+    printf("Numero: %d\n", number);
 
     return 0;
 }

@@ -1,11 +1,13 @@
 #include <stdio.h>
 
-int main(void){
-    float num;
+int main(void)
+{
+    float number;
 
-    scanf("%f", &num);
+    printf("Digite um numero real: ");
+    scanf("%f", &number);
 
-    printf("\n%.2f\n", num);
+    printf("Numero: %f\n", number);
 
     return 0;
 }

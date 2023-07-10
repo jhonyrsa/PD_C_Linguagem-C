@@ -1,20 +1,19 @@
 #include <stdio.h>
 
-int main(void){
+int main(void)
+{
+    int numA, numB, numC;
 
-    int num1, num2, num3, sum=0;
+    printf("Digite valor de A: ");
+    scanf("%d", &numA);
+    printf("Digite valor de B: ");
+    scanf("%d", &numB);
+    printf("Digite valor de C: ");
+    scanf("%d", &numC);
 
-    printf("Digite o primeiro numero: ");
-    scanf("%d", &num1);
-    printf("Digite o segundo numero: ");
-    scanf("%d", &num2);
-    printf("Digite o terceiro numero: ");
-    scanf("%d", &num3);
+    int sum = numA + numB + numC;
 
-    sum = num1+num2+num3;
-
-    printf("Soma = %d\n", sum);
+    printf("A soma A + B + C = %d\n", sum);
 
     return 0;
-
 }

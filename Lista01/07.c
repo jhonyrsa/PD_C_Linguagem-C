@@ -1,15 +1,21 @@
 #include <stdio.h>
 
-float main(){
+double celciusConverter(double temperature);
 
-    float tCelcius, tFahrenheit;
+int main(void){
 
-    printf("Digite sua temperatura em graus Fahrenheit: ");
-    scanf("%f", &tFahrenheit);
+    double tFahrenheit;
 
-    tCelcius = 5.0*(tFahrenheit-32.0)/9.0;
+    printf("Digite a temperatura Fahrenheit: ");
+    scanf("%lf", &tFahrenheit);
 
-    printf("A temperatura convertida em graus Celcius: %.1f\n", tCelcius);
+    double tCelcius = celciusConverter(tFahrenheit);
 
-    return 0.0;
+    printf("Temperatura em Celcius: %.2f C\n", tCelcius);
+
+    return 0;
+}
+
+double celciusConverter(double temperature){
+    return 5.0*((temperature - 32.0)/9.0);
 }

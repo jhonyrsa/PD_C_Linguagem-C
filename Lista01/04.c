@@ -1,14 +1,15 @@
 #include <stdio.h>
 
-int main (void)
+int main(void)
 {
-    int num, square;
+    float num;
 
-    scanf("%d", &num);
+    printf("Digite um numero real A: ");
+    scanf("%f", &num);
 
-    square = num*num;
+    float square = num*num;
 
-    printf("%d\n", square);
+    printf("\nA*A = %f\n", square);
 
     return 0;
 }
